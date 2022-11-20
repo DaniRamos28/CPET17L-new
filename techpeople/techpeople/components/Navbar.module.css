@@ -1,0 +1,102 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container1 {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo > img {
+    width: 90px;
+    height: 90px;
+}
+
+.name {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.tech {
+    color: white;
+}
+
+.people {
+    color:#0CF807;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons > a{
+    display: flex;
+    margin: 15px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons > a:hover{
+    color: #0CF807;
+}
+
+.login > button {
+    padding: 2px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.login > button:hover {
+    color: white;
+    background-color: green;
+}
+  
+@media screen and (max-width: 500px) {
+    .logo > img {
+      width: 70px;
+      height: 70px;
+    }
+
+    .container{
+        display: flex;
+    }
+
+    .container1 {
+        display: flex;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+    .buttons > a{
+        font-size: 14px;
+    }
+
+    .login > button{
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+}
