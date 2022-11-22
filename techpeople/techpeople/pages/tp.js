@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Learn from "../components/Learn";
+import Option from "../components/Option";
+import Footer from "../components/Footer";
 
 
 const TP = () => { 
@@ -9,6 +11,8 @@ const TP = () => {
             <Navbar />
             <Hero />
             <Learn />
+            <Option />
+            <Footer />
         </div>);
 };
 

@@ -11,17 +11,19 @@
 
 .innerleft {
     display: block;
+   
 }
 /*hero text holder*/
 .container {
     display: flex;
+    font-size: 20px;
     align-self: center;
     padding: 0;
     margin:0;
 }
 
 .container > p {
-    font-size: 128pt;
+    font-size: 120px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -46,7 +48,7 @@
 
 /*motto text*/
 .quote p {
-    font-size: 36px;
+    font-size: 35px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -60,34 +62,21 @@
     color: white;
     padding: 5px;
     border-radius: 20px;
+    cursor: pointer;
     background-color: #61CE79;
 
+}
 
+.quote > button:hover {
+    background-color:green;
 }
 
 /*right image*/
 .innerright > img {
-    width: 572px;
-    height: 592px;
-    margin-left: 400px;
+    width: 400px;
+    height: 425px;
+    margin-left: 200px;
+    margin-top: 25px;
 }
 
 
-@media screen and (max-width: 500px) {
-    .Outer {
-        display: block;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .innerleft{
-        display: block;
-    }
-
-    .innerright > img{
-        display: none;
-
-    }
-
-}
-   
