@@ -1,0 +1,14 @@
+.bg {
+    background-image: url("/image/happy-employees-1.jpg");
+    height: 600px !important;  
+    width: auto !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
