@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     height: 90vh;
-    margin-bottom: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -19,15 +18,13 @@
 .left > p {
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 54px;
 }
 
 
 .contents {
     color: white;
-    text-align:left;
-    margin-left: 100px;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .left > button {
@@ -35,21 +32,78 @@
     height: 60px;
     border-radius: 20px;
     font-size: 24px;
-    cursor: pointer;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .left > button:hover{
-    color: white;
+    color: black;
     background-color: #15802c;
 }
 
 .right {
     background-image: url("/image/collage.png");
     width: 50%;
-    height:90vh;
     background-size: 100%;
-    background-repeat: y;
-    
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .container {
+        display: flex;
+        width: 100%;
+        height: 90vh;
+        margin-bottom: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .left {
+        display: block;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        background-color: #61ce79;
+        text-align: center;
+        
+    }
+
+    .left > p {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+
+
+    .contents {
+        color: white;
+        text-align:left;
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
+    .left > button {
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .left > button:hover{
+        color: white;
+        background-color: #15802c;
+    }
+
+    .right {
+        background-image: url("/image/collage.png");
+        width: 50%;
+        height:90vh;
+        background-size: 100%;
+        background-repeat: repeat-y;
+        
+    }
+
 }

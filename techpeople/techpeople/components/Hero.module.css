@@ -11,6 +11,84 @@
 
 .innerleft {
     display: block;
+}
+/*hero text holder*/
+.container {
+    display: flex;
+    align-self: center;
+    padding: 0;
+    margin:0;
+}
+
+.container > p {
+    font-size: 128pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*hero text*/
+.tech {
+    color: white;
+    margin-bottom: 0;
+}
+
+.people {
+    color: #0CF807;
+    margin-bottom: 0;
+}
+
+/*motto holder*/
+.quote {
+    display: block;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+/*motto text*/
+.quote p {
+    font-size: 36px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*button for sign up*/
+.quote > button {
+    width: 200px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #61CE79;
+
+
+}
+
+/*right image*/
+.innerright > img {
+    width: 572px;
+    height: 592px;
+    margin-left: 400px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    /*background*/
+
+.Outer       {
+    display: flex;
+    padding: 50px;
+    background-image: url("/image/bg.png");
+    background-repeat: repeat-y;
+    background-color: #61ce79;
+    background-size: 85%;
+}
+
+.innerleft {
+    display: block;
    
 }
 /*hero text holder*/
@@ -79,4 +157,4 @@
     margin-top: 40px;
 }
 
-
+}

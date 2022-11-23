@@ -17,7 +17,7 @@ const Navbar = () => {
                 </div>
                 <div className={styles.buttons}>
                     <a href="/secondwindow">COURSE</a>
-                    <a href= "/tp">HOME</a>
+                    <a href= "/">HOME</a>
                 </div>
             </div>
             <div className={styles.login}>

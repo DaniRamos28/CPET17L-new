@@ -1,12 +1,11 @@
 .container {
     background-color: #EBE9E9;
-    height: 200px;
-    display: flex;
-    gap: 350px;
-    padding-left: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-
+        height: 200px;
+        display: flex;
+        gap: 500px;
+        padding-left: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
 }
 
 .about {
@@ -54,6 +53,9 @@
     margin-bottom: 15px;
 
 }
+.one{
+    margin-left: 20px;
+}
 .two {
     margin-top: 50px;    
 }
@@ -74,4 +76,84 @@
 .social {
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+        background-color: #EBE9E9;
+        height: 200px;
+        display: flex;
+        gap: 350px;
+        padding-left: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    
+    }
+    
+    .about {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    
+    .about > img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    
+    }
+    
+    .contact > img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    
+    }
+    
+    .about > a {
+        padding-top: 7px;
+        text-decoration: none;
+        
+    }
+    
+    .about > a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .contact {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    
+    }
+    .contact > p {
+        margin-bottom: 15px;
+    
+    }
+    .two {
+        margin-top: 50px;    
+    }
+    
+    .three > p {
+        margin-bottom: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+    .social > img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        
+    }
+    
+    .social {
+        display: flex;
+        gap: 10px;
+    }
 }
