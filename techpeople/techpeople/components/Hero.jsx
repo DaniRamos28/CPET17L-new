@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
         </div>
         <div className={styles.innerright}>
-            <img src= "/image/wow.png" />
+            <img src= "/image/person.png" />
         </div>
     </div>
   );
